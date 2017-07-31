@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:id="@+id/image"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/textContainer">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/hotelName"
+            android:textStyle="bold"
+            android:textColor="@color/listTextColor"
+            android:text=" Hotel Maurya--Rs:7079/day "
+            android:gravity="fill_vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/hotelText"
+            android:textColor="@color/textExtra"
+            android:text=" 5 star hotel \n Contact no: 7543045467 \n Address: boring road "/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

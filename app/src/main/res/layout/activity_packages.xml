@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_packages"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColor"
+    android:orientation="vertical"
+
+    tools:context="com.example.krishna.tripmaza.PackagesActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:layout_marginTop="32dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/onei"
+            android:src="@drawable/trip3" />
+
+        <TextView
+            android:id="@+id/onet"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:background="@color/hotelColor"
+            android:layout_alignParentRight="true"
+            android:text="4 Days_3 Nights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/twoi"
+            android:src="@drawable/trip3" />
+
+
+        <TextView
+            android:id="@+id/twot"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/packagesColor"
+            android:text="7 Days_6 Nights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/threei"
+            android:src="@drawable/trip3" />
+
+
+        <TextView
+            android:id="@+id/threet"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:background="@color/visitColor"
+            android:layout_alignParentRight="true"
+            android:text="9 Days_8 Nights" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

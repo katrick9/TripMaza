@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1d2225</color>
+    <color name="colorPrimaryDark">#1d2225</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navigationBarColor">#f47920</color>
+    <color name="textColor">#ffffff</color>
+    <color name="welcomeText">#3b444b</color>
+    <color name="hotelColor">#ffcccc</color>
+    <color name="restaurantColor">#cce5cc</color>
+    <color name="visitColor">#e5f2e5</color>
+    <color name="packagesColor">#ffffcc</color>
+    <color name="contactUsColor">#ffffcc</color>
+    <color name="listTextColor">#1d2225</color>
+    <color name="textExtra">#757c81</color>
+</resources>

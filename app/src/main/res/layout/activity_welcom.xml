@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColor"
+    android:orientation="vertical"
+    tools:context="com.example.krishna.tripmaza.WelcomActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/hotelsImages"
+            android:src="@drawable/hotels" />
+
+        <TextView
+            android:id="@+id/hotels"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:background="@color/hotelColor"
+            android:layout_alignParentRight="true"
+            android:text="Hotels" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/packagesImages"
+            android:src="@drawable/packages" />
+
+
+        <TextView
+            android:id="@+id/packages"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/packagesColor"
+            android:text="Packages" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/placesImage"
+            android:src="@drawable/visit" />
+
+
+        <TextView
+            android:id="@+id/places"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:background="@color/visitColor"
+            android:layout_alignParentRight="true"
+            android:text="Places To Visit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/restaurantImage"
+            android:src="@drawable/restuy" />
+
+        <TextView
+            android:id="@+id/restaurant"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:background="@color/restaurantColor"
+            android:layout_alignParentRight="true"
+            android:text="Restaurants" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:id="@+id/contactImage"
+            android:src="@drawable/contactus" />
+        <TextView
+            android:id="@+id/contactText"
+            style="@style/categoryStyle"
+            android:padding="30dp"
+            android:background="@color/contactUsColor"
+            android:layout_alignParentRight="true"
+            android:text="Contact us!" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
